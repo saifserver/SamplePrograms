@@ -23,7 +23,7 @@ int main()
 			fact = fact*c;
 		}
 		
-		cout << "Factorial of "<< number <<" is = "<<fact <<endl;
+		cout << "Factorial of "<< number <<" is: "<<fact <<endl;
 	}
 	return 0;
 }
