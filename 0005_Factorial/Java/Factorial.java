@@ -26,7 +26,7 @@ class Factorial
 				fact = fact*c;
 			}
 			
-			System.out.println("Factorial of "+ number +" is = "+fact);
+			System.out.println("Factorial of "+ number +" is: "+fact);
 		}
 	}
 }
