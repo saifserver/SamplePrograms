@@ -4,11 +4,11 @@ using namespace std;
 
 class AC
 {
-	public:
-		int add(int x, int y);
-		int sub(int x, int y);
-		int mult(int x, int y);
-		int div(int x, int y);
+public:
+	int add(int x, int y);
+	int sub(int x, int y);
+	int mult(int x, int y);
+	int div(int x, int y);
 };
 
 int AC :: add(int x, int y)
