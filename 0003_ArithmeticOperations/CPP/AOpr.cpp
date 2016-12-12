@@ -1,4 +1,41 @@
+/* Problem Statement: Program for Arithmetic Operations using various methods */
+#include<iostream>
 
+using namespace std;
+
+class AOpr
+{
+public:
+	int add(int x, int y);
+	int sub(int x, int y);
+	int mult(int x, int y);
+	int div(int x, int y);
+};
+
+int AOpr :: add(int x, int y)
+{
+	int add = x + y;
+	return add;
+}
+	
+int AOpr :: sub(int x, int y)
+{
+	int sub = x - y;
+	return sub;
+}
+	
+int AOpr :: mult(int x, int y)
+{
+	int mult = x * y;
+	return mult;
+}
+	
+int AOpr :: div(int x, int y)
+{
+	int div = x / y;
+	return div;
+}
+	
 int main()
 {
 	AOpr obj;
