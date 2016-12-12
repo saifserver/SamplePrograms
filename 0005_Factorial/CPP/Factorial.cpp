@@ -1,4 +1,4 @@
-/* Problem Statement: Programs for Factorial of Given Number */
+/* Problem Statement: Program for Factorial of Given Number */
 #include<iostream>
 
 using namespace std;
