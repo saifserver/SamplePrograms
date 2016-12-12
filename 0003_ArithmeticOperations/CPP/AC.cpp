@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class AC
+class AOpr
 {
 public:
 	int add(int x, int y);
@@ -11,25 +11,25 @@ public:
 	int div(int x, int y);
 };
 
-int AC :: add(int x, int y)
+int AOpr :: add(int x, int y)
 {
 	int add = x + y;
 	return add;
 }
 	
-int AC :: sub(int x, int y)
+int AOpr :: sub(int x, int y)
 {
 	int sub = x - y;
 	return sub;
 }
 	
-int AC :: mult(int x, int y)
+int AOpr :: mult(int x, int y)
 {
 	int mult = x * y;
 	return mult;
 }
 	
-int AC :: div(int x, int y)
+int AOpr :: div(int x, int y)
 {
 	int div = x / y;
 	return div;
@@ -37,7 +37,7 @@ int AC :: div(int x, int y)
 	
 int main()
 {
-	AC ac;
+	AOpr obj;
 	char ans;
 	int choice, a, b, result;
 	cout << "Arithmetic Operations on Two Numbers" <<endl;
@@ -58,7 +58,7 @@ int main()
 			cin >> a;
 			cout << "Enter Second Number: ";
 			cin >> b;
-			result = ac.add(a, b);
+			result = obj.add(a, b);
 			cout << "Addition of " << a << " and " << b << " is: " << result << endl;
 			break;
 
@@ -67,7 +67,7 @@ int main()
 			cin >> a;
 			cout << "Enter Second Number: ";
 			cin >> b;
-			result = ac.sub(a, b);
+			result = obj.sub(a, b);
 			cout << "Subtraction of " << a << " and " << b << " is: " << result << endl;
 			break;
 				
@@ -76,7 +76,7 @@ int main()
 			cin >> a;
 			cout << "Enter Multiplier: ";
 			cin >> b;
-			result = ac.mult(a, b);
+			result = obj.mult(a, b);
 			cout << "Multiplication of " << a << " and " << b << " is: " <<result <<endl;
 			break;
 				
@@ -85,7 +85,7 @@ int main()
 			cin >> a;
 			cout << "Enter Divisor: ";
 			cin >> b;
-			result = ac.div(a, b);
+			result = obj.div(a, b);
 			cout << "Division of " << a << " and " << b << " is: " <<result <<endl;
 			break;
 				
