@@ -95,7 +95,7 @@ int main()
 			break;
 				
 		default:
-			cout << "Wrong choice entered!! PLease try again.." <<endl;
+			cout << "Wrong choice entered!! Please try again.." <<endl;
 			break;
 		}
 			
