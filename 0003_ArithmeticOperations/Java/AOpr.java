@@ -88,7 +88,7 @@ public class AOpr
 				break;
 				
 			default:
-				System.out.println("Wrong choice entered!! PLease try again..");
+				System.out.println("Wrong choice entered!! Please try again..");
 				break;
 			}
 			
