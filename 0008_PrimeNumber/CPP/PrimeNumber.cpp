@@ -9,7 +9,6 @@ class PrimeNumber
 public:
 	void printPrime(int user_input);
 	void checkPrime(int user_input);
-	
 };
 
 void PrimeNumber :: printPrime(int user_input)
@@ -17,32 +16,32 @@ void PrimeNumber :: printPrime(int user_input)
 	int temp = user_input;
 	int num = 3, status = 1;
 	if(temp >= 1)
-    {
-        cout << "First "<< temp <<" prime numbers are -" <<endl;
-        cout << " " <<2;
-    }
+    	{
+        	cout << "First "<< temp <<" prime numbers are -" <<endl;
+        	cout << " " <<2;
+    	}
  
-    for(int count = 2; count <= temp;)
-    {
-    	for(int j = 2; j <= sqrt(num); j++)
-        {
-    		if(num % j == 0)
-            {
-               status = 0;
-               break;
-            }
-        }
+    	for(int count = 2; count <= temp;)
+    	{
+    		for(int j = 2; j <= sqrt(num); j++)
+        	{
+    			if(num % j == 0)
+            		{
+               			status = 0;
+               			break;
+            		}
+        	}
 
-        if(status != 0)
-        {
-        	cout << " " <<num;
-            count++;
-        }
-        status = 1;
-        num++;
+        	if(status != 0)
+        	{
+        		cout << " " <<num;
+            		count++;
+        	}
+        	status = 1;
+        	num++;
 	        
-    }
-    cout << endl;
+    	}
+    	cout << endl;
 }
 	
 void PrimeNumber :: checkPrime(int user_input)
